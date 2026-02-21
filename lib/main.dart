@@ -127,6 +127,8 @@ class _MainPageState extends State<MainPage> {
         centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.blue[600],
+        toolbarHeight: 50,
+        automaticallyImplyLeading: false,
       ),
       body: SafeArea(
         child: _isLoggedIn ? _buildCounterUI() : _buildLoginUI(),
