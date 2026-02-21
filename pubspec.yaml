@@ -1,0 +1,22 @@
+name: telegram_counter_mini_app
+description: A Flutter Telegram Mini App with counter functionality.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  gh_pages: ^0.1.1
+
+flutter:
+  uses-material-design: true
